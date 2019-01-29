@@ -197,9 +197,8 @@ a:hover, a:focus, a:active {
   width: 70px;
 }
 
-.company-worked {
-  width: 100px;
-  margin: 25px;
+.publication {
+  width: 180px;
 }
 
 /*.hobbies {
@@ -211,6 +210,7 @@ a:hover, a:focus, a:active {
     max-width: 7rem;
     max-height: 7rem;
     border: 0.25rem solid rgba(134, 142, 150, 1);
+
 }
 
 .map-gif {
@@ -227,5 +227,22 @@ a:hover, a:focus, a:active {
     padding: 25px 75px;
     border-radius: 5px;
     border: 1px black;
+    transition: transform 1s ease, opacity .5s ease-out;
+    min-height: 410px;
 }
 
+#carouselExampleControls {
+    min-height: 410px;
+}
+/*
+.carousel-item .row {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}*/
+
+.carousel-control-next, .carousel-control-prev {
+    width: 10%;
+}
